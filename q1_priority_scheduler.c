@@ -66,3 +66,5 @@ int main() {
 
     return 0;
 }
+
+// Max Heap is better in Time complexity as compared to Sorted Tree Because if more number or elements are greater or lesser than the root it will form the skewed tree which will Make the Time Complexity T(n)=O(n)

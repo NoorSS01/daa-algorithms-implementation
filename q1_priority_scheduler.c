@@ -5,7 +5,7 @@
 int heap[MAX];
 int size = 0;
 
-// Swap
+// Swap Function
 void swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
@@ -25,7 +25,7 @@ void insert(int value) {
     }
 }
 
-// Heapify
+// Heapify function
 void heapify(int i) {
     int largest = i;
     int left = 2 * i;
@@ -43,7 +43,7 @@ void heapify(int i) {
     }
 }
 
-// Extract max
+// Extract max Function
 int extractMax() {
     if (size == 0) return -1;
 
